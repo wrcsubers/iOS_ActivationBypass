@@ -53,4 +53,4 @@
  
  
   
-*** These directions were pulled from many sources and compiled by me, the steps and patched mobileactivationd file for the iCloud bypass were extracted from [iOS-Hacktivation](https://github.com/Hacktivation/iOS-Hacktivation-Toolkit/tree/master/bypass_scripts/mobileactivationd_12_4_7).  Many thanks to the talented individuals that create these tools! ***
+<sub> These directions were pulled from many sources and compiled by me, the steps and patched mobileactivationd file for the iCloud bypass were extracted from [iOS-Hacktivation](https://github.com/Hacktivation/iOS-Hacktivation-Toolkit/tree/master/bypass_scripts/mobileactivationd_12_4_7).  Many thanks to the talented individuals that create these tools! </sub>
