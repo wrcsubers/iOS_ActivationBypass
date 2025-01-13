@@ -1,7 +1,7 @@
 ## iOS Activation Bypass Instructions for A7 Devices (Confirmed working on iPad Air Gen 1 iOS 12.5.6 and iPad Mini 3 iOS 12.5.7) ##
 ### Confirmed Working Devices ###
-- iPad Air Gen 1 on iOS 12.5.6
-- iPad Mini 3 on iOS 12.5.7 (thanks to [adamk324](<https://github.com/adamk324> "adamk324"))
+- iPad Air Gen 1 on iOS 12.5.6 (As of 10/27/2022)
+- iPad Mini 3 on iOS 12.5.7 (As of 01/13/2025 - Thanks to [adamk324](<https://github.com/adamk324> "adamk324"))
   
 ### Jailbreak the iDevice ###
 - Jailbreak with Checkra1n 0.10.2 
