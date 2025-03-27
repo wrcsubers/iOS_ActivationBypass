@@ -4,7 +4,8 @@
   - iPad Air Gen 1 (As of 10/27/2022)
 - iOS 12.5.7
   - iPad Mini 3 (As of 01/13/2025 - Thanks to [adamk324](<https://github.com/adamk324> "adamk324"))
-  
+  - iPad Mini 2 (As of 02/26/2025 - Thanks to [ManiProjs](<https://github.com/ManiProjs> "ManiProjs"))
+
 ### Jailbreak the iDevice ###
 - Jailbreak with Checkra1n 0.10.2 
   - https://checkra.in/releases/0.10.2-beta#all-downloads
