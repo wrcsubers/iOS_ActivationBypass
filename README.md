@@ -51,6 +51,10 @@
 1. **Jailbreak** with Checkra1n 0.10.2
 2. **Run** setup and transfer scripts:
    ```bash
+   ./activation.sh
+   ```
+   Or use a step-by-step approach：
+   ```bash
    # Terminal 1: Start proxy
    ./setup_proxy.sh
 
@@ -65,7 +69,7 @@
    # Back in Terminal 2 SSH session
    ./finalize_bypass.sh
    ```
-3. **Complete** by tapping "Connect to iTunes"
+4. **Complete** by tapping "Connect to iTunes"
 
 ### Automated Method - Windows
 1. **Jailbreak** with Checkra1n 0.10.2

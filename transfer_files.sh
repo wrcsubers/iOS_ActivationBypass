@@ -47,10 +47,10 @@ transfer_file() {
     echo "[*] Transferring $file to $dest..."
 
     if [ "$USE_SSHPASS" = true ]; then
-        sshpass -p "$SSH_PASS" scp -P "$SSH_PORT" -o StrictHostKeyChecking=no "$file" "${SSH_USER}@${SSH_HOST}:${dest}"
+        sshpass -p "$SSH_PASS" scp -O -P "$SSH_PORT" -o StrictHostKeyChecking=no "$file" "${SSH_USER}@${SSH_HOST}:${dest}"
     else
         echo "    Password: alpine"
-        scp -P "$SSH_PORT" -o StrictHostKeyChecking=no "$file" "${SSH_USER}@${SSH_HOST}:${dest}"
+        scp -O -P "$SSH_PORT" -o StrictHostKeyChecking=no "$file" "${SSH_USER}@${SSH_HOST}:${dest}"
     fi
 
     if [ $? -eq 0 ]; then

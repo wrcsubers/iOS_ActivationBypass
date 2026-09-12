@@ -28,11 +28,11 @@ echo ""
 # Check if sshpass is available
 if command -v sshpass &> /dev/null; then
     echo "[*] Using sshpass for automated transfer"
-    sshpass -p "$SSH_PASS" scp -P "$SSH_PORT" -o StrictHostKeyChecking=no "$PATCH_FILE" "${SSH_USER}@${SSH_HOST}:${DEST_PATH}"
+    sshpass -p "$SSH_PASS" scp -O -P "$SSH_PORT" -o StrictHostKeyChecking=no "$PATCH_FILE" "${SSH_USER}@${SSH_HOST}:${DEST_PATH}"
 else
     echo "[*] Enter password when prompted"
     echo "    Password: alpine"
-    scp -P "$SSH_PORT" -o StrictHostKeyChecking=no "$PATCH_FILE" "${SSH_USER}@${SSH_HOST}:${DEST_PATH}"
+    scp -O -P "$SSH_PORT" -o StrictHostKeyChecking=no "$PATCH_FILE" "${SSH_USER}@${SSH_HOST}:${DEST_PATH}"
 fi
 
 if [ $? -eq 0 ]; then
@@ -50,7 +50,7 @@ else
     echo "[✗] Transfer failed!"
     echo ""
     echo "Manual transfer method:"
-    echo "  scp -P 2222 mobileactivationd root@127.0.0.1:/usr/libexec/mobileactivationd"
+    echo "  scp -O -P 2222 mobileactivationd root@127.0.0.1:/usr/libexec/mobileactivationd"
     echo "  Password: alpine"
     echo ""
     exit 1
